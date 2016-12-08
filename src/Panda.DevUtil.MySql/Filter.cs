@@ -54,5 +54,20 @@ namespace Panda.DevUtil.MySql
         {
             throw new NotImplementedException();
         }
+
+        public static Filter Not(string name, object value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static Filter GE(string name, object value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static Filter LE(string name, object value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
