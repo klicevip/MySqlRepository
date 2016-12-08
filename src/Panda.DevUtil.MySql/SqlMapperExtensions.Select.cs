@@ -20,7 +20,22 @@ namespace Panda.DevUtil.MySql
             throw new NotImplementedException();
         }
 
+        public static async Task<IEnumerable<T>> FindAsync<T>(this IDbConnection connection, Filter filter = null, string[] selectFields = null, string[] orderByFileds = null, bool? orderbyDesc = null, int? skip = null, int? limit = null, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
+        {
+            throw new NotImplementedException();
+        }
+
         public static IEnumerable<T> Find<T>(this IDbConnection connection, Filter filter = null, string[] selectFields = null, string[] orderByFileds = null, bool? orderbyDesc = null, int? skip = null, int? limit = null, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static async Task<int> CountAsync<T>(this IDbConnection connection, Filter filter = null, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static int Count<T>(this IDbConnection connection, Filter filter = null, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
         {
             throw new NotImplementedException();
         }
